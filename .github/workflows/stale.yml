@@ -6,8 +6,6 @@ permissions:
   actions: write
 
 on:
-  schedule:
-    - cron: '30 1 * * *'
   workflow_dispatch:
 
 jobs:
